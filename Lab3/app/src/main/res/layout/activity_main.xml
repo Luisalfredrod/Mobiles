@@ -20,7 +20,8 @@
         android:id="@+id/butVibrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vibrate"
+        android:layout_marginBottom="25dp"
+        android:text="@string/vibrate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,11 +38,13 @@
         android:layout_marginRight="115dp"
         android:layout_marginStart="115dp"
         android:layout_marginTop="61dp"
-        android:text="Proximity Sensor"
+        android:text="@string/proximity_sensor"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/butVibrate" />
+        app:layout_constraintTop_toBottomOf="@+id/butVibrate"
+        app:layout_constraintVertical_bias="0.437" />
 
     <Button
         android:id="@+id/butNotification"
@@ -53,7 +56,7 @@
         android:layout_marginRight="128dp"
         android:layout_marginStart="129dp"
         android:layout_marginTop="25dp"
-        android:text="Notifications"
+        android:text="@string/notifications"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +72,7 @@
         android:layout_marginRight="122dp"
         android:layout_marginStart="123dp"
         android:layout_marginTop="32dp"
-        android:text="New Test App"
+        android:text="@string/new_test_app"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/butVibrate"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Lab3</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="notifications">Notifications</string>
+    <string name="new_test_app">New Test App</string>
 </resources>
