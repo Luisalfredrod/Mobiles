@@ -44,12 +44,15 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if (rockval == compu){
+                    Toast.makeText(MainActivity.this, "COMPUTER: ROCK", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "IT'S A DRAW!!!", Toast.LENGTH_LONG).show();
                 }else if(compu == 1){
+                    Toast.makeText(MainActivity.this, "COMPUTER: PAPER", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "YOU LOSE!!!", Toast.LENGTH_LONG).show();
                     winComputer +=1;
                     compScore.setText(String.valueOf(winComputer));
                 }else{
+                    Toast.makeText(MainActivity.this, "COMPUTER: SCISSOR", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "YOU WIN!!!", Toast.LENGTH_LONG).show();
                     winPlayer +=1;
                     playerScore.setText(String.valueOf(winPlayer));
@@ -67,12 +70,15 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if (paperval == compu){
+                    Toast.makeText(MainActivity.this, "COMPUTER: PAPER", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "IT'S A DRAW!!!", Toast.LENGTH_LONG).show();
                 }else if(compu == 2){
+                    Toast.makeText(MainActivity.this, "COMPUTER: SCISSOR", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "YOU LOSE!!!", Toast.LENGTH_LONG).show();
                     winComputer +=1;
                     compScore.setText(String.valueOf(winComputer));
                 }else{
+                    Toast.makeText(MainActivity.this, "COMPUTER: ROCK", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "YOU WIN!!!", Toast.LENGTH_LONG).show();
                     winPlayer +=1;
                     playerScore.setText(String.valueOf(winPlayer));
@@ -87,12 +93,15 @@ public class MainActivity extends AppCompatActivity {
                 int compu = myRandom.nextInt(3);
 
                 if (scissorval == compu){
+                    Toast.makeText(MainActivity.this, "COMPUTER: SCISSOR", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "IT'S A DRAW!!!", Toast.LENGTH_LONG).show();
                 }else if(compu == 0){
+                    Toast.makeText(MainActivity.this, "COMPUTER: ROCK", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "YOU LOSE!!!", Toast.LENGTH_LONG).show();
                     winComputer +=1;
                     compScore.setText(String.valueOf(winComputer));
                 }else{
+                    Toast.makeText(MainActivity.this, "COMPUTER: PAPER", Toast.LENGTH_LONG).show();
                     Toast.makeText(MainActivity.this, "YOU WIN!!!", Toast.LENGTH_LONG).show();
                     winPlayer +=1;
                     playerScore.setText(String.valueOf(winPlayer));
