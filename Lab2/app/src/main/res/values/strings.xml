@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="orientation">Orientation</string>
+    <string name="change_title">Change Title</string>
+    <string name="name">Name</string>
+    <string name="lab_2">Lab 2</string>
+    <string name="change">Change</string>
+    <string name="titulo">Titulo</string>
+    <string name="actividad3">actividad3</string>
+    <string name="cambiar_titulo">Cambiar titulo</string>
+</resources>
